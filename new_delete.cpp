@@ -12,11 +12,12 @@ int main(){
     cout<<"Enter the element arr[i]";
     cin>>arr[i];
    }
+
    for(int i=0;i<size;i++){
       sum=sum+arr[i];
    }
    cout<<"Sum = "<<sum<<endl;
     cout<<"\nDynamic  allocation of memory for array arr is successful." ;
-    delete[] arr;
+    delete arr;
     return 0;
 }
