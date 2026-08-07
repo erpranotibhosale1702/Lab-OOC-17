@@ -23,11 +23,17 @@ private:
     cout<<"Marks: "<<marks<<endl;
 
   }
+  
 };
 int main(){
-    Student s;
+    Student s,s1,s2;
     s.inputDetails();
+    s.name="Tony Shark";
     s.displayDetails();
+    s1.inputDetails();
+    s1.displayDetails();
+    inputDetails();
+    
     return 0;
-}
+} 
   
